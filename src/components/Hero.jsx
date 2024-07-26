@@ -1,10 +1,12 @@
 import React from "react";
 import Button from "./Button/Button";
+import Clouds from "./Animation/Clouds";
 import "./Hero.css"
 
 export default function Hero() {
     return <>
-    <section>
+    <section className="hero">
+        <Clouds />
         <div className="hero-headings">
             <h2 className="cursive-font">Hello there, I'm Anant (: meaning Infinity :)</h2>
             <p className="cursive-font">An ambivert with a craving for either being all disciplined or having fun, 

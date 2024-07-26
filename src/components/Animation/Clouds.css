@@ -1,0 +1,98 @@
+.clouds {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    z-index: 0;
+}
+
+.cloud {
+    position: absolute;
+    width: var(--font-size-large);
+    height: var(--font-size-large);
+    opacity: 0.5;
+
+    background: url('../../assests/cloud.svg') no-repeat;
+    background-size:contain;
+}
+
+.cloud1 {
+    top: 0%;
+    /* left: 50vw; */
+    animation: moveCloud1 40s linear infinite;
+}
+
+.cloud2 {
+    top: 19%;
+    /* left: -30vw; */
+    animation: moveCloud2 80s linear infinite;
+}
+
+.cloud3 {
+    top: 29%;
+    /* left: -50vw; */
+    animation: moveCloud3 120s linear infinite;
+}
+
+.cloud4 {
+    top: 39%;
+    /* left: -10vw; */
+    animation: moveCloud1 30s linear infinite;
+}
+
+.cloud5 {
+    top: 49%;
+    /* left: -30vw; */
+    animation: moveCloud2 60s linear infinite;
+}
+
+.cloud6 {
+    top: 59%;
+    /* left: -50vw; */
+    animation: moveCloud3 90s linear infinite;
+}
+
+.cloud7 {
+    top: 69%;
+    /* left: -10vw; */
+    animation: moveCloud1 50s linear infinite;
+}
+
+.cloud8 {
+    top: 79%;
+    /* left: -30vw; */
+    animation: moveCloud2 100s linear infinite;
+}
+
+.cloud9 {
+    top: 89%;
+    /* left: -50vw; */
+    animation: moveCloud3 150s linear infinite;
+}
+
+
+@keyframes moveCloud1 {
+    from {
+        transform: translateX(-10vw);
+    }
+    to {
+        transform: translateX(110vw);
+    }
+}
+
+@keyframes moveCloud2 {
+    from {
+        transform: translateX(-60vw);
+    }
+    to {
+        transform: translateX(180vw);
+    }
+}
+
+@keyframes moveCloud3 {
+    from {
+        transform: translateX(-110vw);
+    }
+    to {
+        transform: translateX(250vw);
+    }
+}
