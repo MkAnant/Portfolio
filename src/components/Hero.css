@@ -1,0 +1,14 @@
+/* HERO */
+.hero-headings, .infinite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-zero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 120px;
+}
