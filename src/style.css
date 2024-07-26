@@ -1,0 +1,59 @@
+/* COLORS */
+.extro-color {
+  color: var(--primary-color);
+}
+
+.intro-color {
+  color: var(--secondary-color);
+}
+
+/* FONTS */
+.cursive-font {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.serif-font {
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.serif-font-bold {
+    font-family: "Elsie", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* FONT SIZES */
+h1 {
+  font-size: var(--font-size-heading);
+  line-height: 1;
+  margin: 0;
+}
+
+h2 {
+  font-size: var(--font-size-large);
+  line-height: 1;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: var(--font-size-medium);
+  text-align: center;
+}
+
+p {
+  font-size: var(--font-size-small);
+}
+
+/* HTML & BODY */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
