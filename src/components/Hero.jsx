@@ -1,28 +1,24 @@
 import React from "react";
-import Button from "./Button/Button";
-import Clouds from "./Animation/Clouds";
-import "./Hero.css"
+import Origin from "./Pages/Origin/Origin";
+import ExtroWorks from "./Pages/ExtroWorks/ExtroWorks";
+import IntroWorks from "./Pages/IntroWorks/IntroWorks";
+import Skills from "./Pages/Skills/Skills";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
 
-export default function Hero() {
-    return <>
+import "./Hero.css";
+
+export default function Hero(props) {
+  return (
     <section className="hero">
-        <Clouds />
-        <div className="hero-headings">
-            <h2 className="cursive-font">Hello there, I'm Anant (: meaning Infinity :)</h2>
-            <p className="cursive-font">An ambivert with a craving for either being all disciplined or having fun, 
-                but often it's some tasteful desserts that win over these :p</p>
-            <div className="one-zero">
-                <div className="infinite">
-                    <h1 className="extro-color">1</h1>
-                    <Button type="primary-button" value="My Extro Works" />
-                </div>
-                <h1 className="serif-font-bold">   /    </h1>
-                <div className="infinite">
-                    <h1 className="intro-color">0</h1>
-                    <Button type="secondary-button" value="My Intro Works" />
-                </div>
-            </div>
-        </div>
+      <div className="pages">
+        {props.page == "Origin" && <Origin OnChangedPage={props.OnChangedPage}/>}
+        {props.page == "ExtroWorks" && <ExtroWorks />}
+        {props.page == "IntroWorks" && <IntroWorks />}
+        {props.page == "Skills" && <Skills />}
+        {props.page == "About" && <About />}
+        {props.page == "Contact" && <Contact />}
+      </div>
     </section>
-    </>
+  );
 }

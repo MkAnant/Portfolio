@@ -1,20 +1,4 @@
 /* HERO */
 .hero {
-    position: relative;
-    overflow: hidden;
-}
-
-.hero-headings, .infinite {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     z-index: 1;
-}
-
-.one-zero {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 120px;
 }

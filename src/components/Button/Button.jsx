@@ -1,8 +1,13 @@
 import React from "react";
-import "./Button.css"
+import "./Button.css";
 
 export default function Button(props) {
-    return <>
-        <button className={props.type + " serif-font"}>{props.value}</button>
-    </>
+  return (
+    <button
+      className={props.type + " serif-font"}
+      onClick={() => props.OnChangedPage(props.page)}
+    >
+      {props.value}
+    </button>
+  );
 }
