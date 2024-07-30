@@ -1,8 +1,34 @@
 import React from "react";
+import Card from "../../Card/Card";
 import "./IntroWorks.css";
 
-export default function IntroWorks() {
-    return <>
-    <h1>Hello IntroWorks</h1>
-    </>
+export default function IntroWorks(props) {
+  return (
+    <div className="introworks">
+      <div className="works-heading">
+        <h2 className="cursive-font">My Intro works</h2>
+        <p className="cursive-font">Tools made for everyone</p>
+      </div>
+
+      <div className="works">
+        <Card
+          title="Console.Blog"
+          info="Personal blogging Platform where I post all about tough to grasp and
+        exceptional concepts of computer science and it’s ever evolving changes."
+          tech="Node, Express, Postgres, Bootstrap"
+        />
+        <Card
+          title="Muvi-Gruvi"
+          info="Ever thought of collecting the best movie lines or song lyrics which
+          give you immense motivation or uplifting your mental vibe? No? Well I did."
+          tech="Node, Express, Postgres, Bootstrap"
+        />
+        <Card
+          title="This Portfolio"
+          info="You already know all about it, if not please visit all the pages :)"
+          tech="CSS Animations, React, Vite"
+        />
+      </div>
+    </div>
+  );
 }

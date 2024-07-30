@@ -1,4 +1,4 @@
-/* COLORS */
+/* TEXT COLORS */
 .extro-color {
   color: var(--primary-color);
 }
@@ -7,41 +7,66 @@
   color: var(--secondary-color);
 }
 
-/* FONTS */
-.cursive-font {
-    font-family: "Indie Flower", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.serif-font {
-    font-family: "Elsie", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.serif-font-bold {
-    font-family: "Elsie", serif;
-    font-weight: 900;
-    font-style: normal;
+/* BACKGROUND COLORS WITH MATCHING TEXT COLORS*/
+.dark-background {
+  color: var(--light-color);
+  background-color: var(--dark-color);
 }
 
-/* FONT SIZES */
+.extro-background {
+  color: var(--dark-color);
+  background-color: var(--primary-color);
+}
+
+.intro-background {
+  color: var(--dark-color);
+  background-color: var(--secondary-color);
+}
+
+.gradient-background {
+  color: var(--dark-color);
+  background: rgb(253, 228, 190);
+  background: linear-gradient(90deg, rgba(253, 228, 190, 1) 0%, rgba(161, 225, 224, 1) 100%);
+}
+
+/* FONTS */
+.cursive-font {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.serif-font {
+  font-family: "Elsie", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.serif-font-bold {
+  font-family: "Elsie", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ELEMENT SIZES */
 h1 {
   font-size: var(--font-size-heading);
   line-height: 1;
   margin: 0;
+  text-align: center;
 }
 
 h2 {
   font-size: var(--font-size-large);
   line-height: 1;
-  margin-bottom: 0;
+  margin: 0;
   text-align: center;
 }
 
 h3 {
   font-size: var(--font-size-medium);
+  line-height: 1;
+  margin: 0;
   text-align: center;
 }
 
@@ -49,11 +74,17 @@ p {
   font-size: var(--font-size-small);
 }
 
+img {
+  max-height: var(--font-size-heading);
+  max-width: var(--font-size-heading);
+}
+
 /* HTML & BODY */
-body, html {
+body,
+html,
+#root {
   height: 100dvh;
   margin: 0;
   padding: 0;
-  color: var(--text-color);
-  background-color: var(--background-color);
+  transition: background-color 0.5s ease;
 }

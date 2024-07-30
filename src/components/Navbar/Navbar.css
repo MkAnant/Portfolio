@@ -1,13 +1,10 @@
 /* HEADER */
 .navbar-links {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
-    margin: 0;
-    padding: 20px;
-}
+    margin-bottom: var(--font-size-large);
 
-li {
-    cursor: pointer;
+    transition: margin-bottom 1s ease;
 }

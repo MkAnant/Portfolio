@@ -1,10 +1,10 @@
 /* VARIABLES */
 :root {
     /* COLORS */
-    --primary-color: #FDE4BE;
-    --secondary-color: #A1E1E0;
-    --background-color: black;
-    --text-color: white;
+    --primary-color: #fde4be;
+    --secondary-color: #a1e1e0;
+    --dark-color: black;
+    --light-color: white;
 
     /* FONT SIZES */
     --font-size-small: 1rem;

@@ -9,15 +9,24 @@ import Contact from "./Pages/Contact/Contact";
 import "./Hero.css";
 
 export default function Hero(props) {
+  const pages = {
+    Origin: <Origin OnChangedPage={props.OnChangedPage} />,
+    ExtroWorks: <ExtroWorks OnChangedPage={props.OnChangedPage} />,
+    IntroWorks: <IntroWorks OnChangedPage={props.OnChangedPage} />,
+    Skills: <Skills />,
+    About: <About />,
+    Contact: <Contact />,
+  };
+
   return (
     <section className="hero">
       <div className="pages">
-        {props.page == "Origin" && <Origin OnChangedPage={props.OnChangedPage}/>}
-        {props.page == "ExtroWorks" && <ExtroWorks />}
-        {props.page == "IntroWorks" && <IntroWorks />}
-        {props.page == "Skills" && <Skills />}
-        {props.page == "About" && <About />}
-        {props.page == "Contact" && <Contact />}
+        {pages[props.page] || (
+          <div>
+            Looks like we don't have the right coordinates. Let's go back to
+            Origin?
+          </div>
+        )}
       </div>
     </section>
   );

@@ -2,17 +2,13 @@ import React from "react";
 import "./Clouds.css";
 
 export default function Clouds() {
+  const cloudNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
   return (
     <div className="clouds">
-      <div className="cloud cloud1"></div>
-      <div className="cloud cloud2"></div>
-      <div className="cloud cloud3"></div>
-      <div className="cloud cloud4"></div>
-      <div className="cloud cloud5"></div>
-      <div className="cloud cloud6"></div>
-      <div className="cloud cloud7"></div>
-      <div className="cloud cloud8"></div>
-      <div className="cloud cloud9"></div>
+      {cloudNumbers.map((num, index) => (
+        <div key={index} className={`cloud cloud${num}`}></div>
+      ))}
     </div>
   );
 }

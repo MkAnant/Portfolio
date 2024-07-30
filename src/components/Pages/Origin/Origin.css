@@ -1,8 +1,9 @@
 .origin {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 120px;
+    gap: 10rem;
 }
 
 .infinite {
@@ -10,4 +11,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:1000px) {
+    .origin {
+        flex-direction: column;
+    }
 }

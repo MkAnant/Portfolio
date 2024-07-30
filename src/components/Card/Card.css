@@ -1,0 +1,41 @@
+.works-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    min-height: var(--font-size-heading);
+    flex-basis: var(--font-size-heading);
+
+    gap: var(--font-size-small);
+
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(100px);
+    border: 1px solid var(--dark-color);
+    padding: var(--font-size-small);
+    margin-top: var(--font-size-small);
+
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 var(--font-size-small) var(--font-size-small) #00000080;
+}
+
+.works-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 var(--font-size-small) var(--font-size-small) var(--light-color);
+}
+
+.works-card img {
+    transition: transform 0.3s ease;
+}
+
+.works-card:hover img {
+    transform: scale(1.016);
+}
+
+.blur {
+    filter: blur(2.5px);
+}
+
+.blur:hover {
+    filter: blur(0);
+}

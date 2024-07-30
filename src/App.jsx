@@ -12,35 +12,38 @@ function App() {
 
   function changePage(newPage) {
     setPage(newPage);
-    console.log(page);
+    let navbarElement = document.querySelector(".navbar-links");
+    let bodyElement = document.querySelector("body");
+    navbarElement.style.marginBottom = "var(--font-size-small)";
 
-    // switch(newPage) {
-    //     case 'ExtroWorks':
-    //         return <ExtroWorks />
+    switch (newPage) {
+      case "ExtroWorks":
+      case "Contact":
+        bodyElement.setAttribute("class", "extro-background");
+        break;
 
-    //     case 'IntroWork':
-    //         return <IntroWorks />
+      case "IntroWorks":
+      case "About":
+        bodyElement.setAttribute("class", "intro-background");
+        break;
 
-    //     case 'Skills':
-    //         return <Skills />
+      case "Skills":
+        bodyElement.setAttribute("class", "gradient-background");
+        break;
 
-    //     case 'About':
-    //         return <About />
-
-    //     case 'Contact':
-    //         return <Contact />
-
-    //     default:
-    //         return <Origin />
-    // }
+      case "Origin":
+      default:
+        navbarElement.style.marginBottom = "var(--font-size-large)";
+        bodyElement.setAttribute("class", "dark-background");
+    }
   }
 
   return (
     <div className="App">
       <Clouds />
-      <Navbar OnChangedPage={changePage}/>
+      <Navbar OnChangedPage={changePage} />
       <Header />
-      <Hero page={page} OnChangedPage={changePage}/>
+      <Hero page={page} OnChangedPage={changePage} />
     </div>
   );
 }
