@@ -15,7 +15,7 @@ export default function Contact() {
     <div className="contact">
       <Header h2="My Extro" para="Contact Me" />
       <div className="connect">
-        <img className="square-pic" src="/Contact.png" alt="contact" />
+        <img className="square-pic" src="/Link Images/Contact.png" alt="contact" />
         <div className="message">
           <h3 className="cursive-font">
             Open for some great <br /> conversations, <br />
@@ -29,7 +29,7 @@ export default function Contact() {
             ))}
           </ul>
         </div>
-        <img className="square-pic" src="/Resume.png" alt="resume" />
+        <img className="square-pic" src="/Link Images/Resume.png" alt="resume" />
       </div>
     </div>
   );

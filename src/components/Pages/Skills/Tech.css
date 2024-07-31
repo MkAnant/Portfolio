@@ -1,0 +1,29 @@
+.tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: var(--font-size-small);
+    padding: var(--font-size-small) 0;
+
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.tech img {
+    transition: transform 0.3s ease;
+    border-radius: var(--font-size-medium);
+}
+
+.tech:hover * {
+    transform: scale(1.1);
+    transform: translateY(-8px);
+    filter: drop-shadow(0 var(--font-size-large) var(--font-size-small) var(--light-color));
+    /* box-shadow: ; */
+}
+
+.round-pic {
+    height: var(--font-size-large);
+    width: var(--font-size-large);
+}
