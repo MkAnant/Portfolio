@@ -14,15 +14,17 @@ function App() {
     setPage(newPage);
     let navbarElement = document.querySelector(".navbar-links");
     let bodyElement = document.querySelector("body");
-    navbarElement.style.marginBottom = "var(--font-size-small)";
+    navbarElement.style.marginBottom = "var(--font-size-large)";
 
     switch (newPage) {
       case "ExtroWorks":
+        navbarElement.style.marginBottom = "var(--font-size-small)";
       case "Contact":
         bodyElement.setAttribute("class", "extro-background");
         break;
 
       case "IntroWorks":
+        navbarElement.style.marginBottom = "var(--font-size-small)";
       case "About":
         bodyElement.setAttribute("class", "intro-background");
         break;
@@ -33,7 +35,6 @@ function App() {
 
       case "Origin":
       default:
-        navbarElement.style.marginBottom = "var(--font-size-large)";
         bodyElement.setAttribute("class", "dark-background");
     }
   }
@@ -42,7 +43,8 @@ function App() {
     <div className="App">
       <Clouds />
       <Navbar OnChangedPage={changePage} />
-      <Header />
+      <Header h2="Hello there, I'm Anant (: meaning Infinity :)" para="An ambivert with a craving for either being all disciplined or having
+          fun, but often it's some tasteful desserts that win over these :p"/>
       <Hero page={page} OnChangedPage={changePage} />
     </div>
   );

@@ -1,15 +1,12 @@
 import React from "react";
 import Card from "../../Card/Card";
+import Header from "../../Header/Header";
 import "./ExtroWorks.css";
 
 export default function ExtroWorks(props) {
   return (
     <div className="extroworks">
-      <div className="works-heading">
-        <h2 className="cursive-font">My Extro works</h2>
-        <p className="cursive-font">Tools made for everyone</p>
-      </div>
-
+      <Header h2="My Extro works" para="Tools made for everyone" />
       <div className="works">
         <Card
           title="Sun Screener"

@@ -6,9 +6,7 @@ export default function Clouds() {
 
   return (
     <div className="clouds">
-      {cloudNumbers.map((num, index) => (
-        <div key={index} className={`cloud cloud${num}`}></div>
-      ))}
+      {cloudNumbers.map((num, index) => <div key={index} className={`cloud cloud${num}`}></div>)}
     </div>
   );
 }

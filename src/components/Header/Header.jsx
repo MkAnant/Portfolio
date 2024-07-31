@@ -1,16 +1,15 @@
 import React from "react";
 import "./Header.css";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <header>
       <div className="headings">
         <h2 className="cursive-font">
-          Hello there, I'm Anant (: meaning Infinity :)
+          {props.h2}
         </h2>
         <p className="cursive-font">
-          An ambivert with a craving for either being all disciplined or having
-          fun, but often it's some tasteful desserts that win over these :p
+          {props.para}
         </p>
       </div>
     </header>

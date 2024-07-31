@@ -1,0 +1,9 @@
+.dp{
+    height: 256px;
+    width: 256px;
+    border-radius: var(--font-size-large);
+}
+
+.square-pic {
+    margin: 0px 28px;
+}

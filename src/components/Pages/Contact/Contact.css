@@ -1,0 +1,18 @@
+.connect, .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: var(--font-size-medium);
+    padding: var(--font-size-small);
+    margin-top: var(--font-size-small);
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: var(--font-size-medium);
+}

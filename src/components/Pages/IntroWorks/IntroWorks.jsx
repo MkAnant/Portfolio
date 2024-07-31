@@ -1,15 +1,12 @@
 import React from "react";
 import Card from "../../Card/Card";
+import Header from "../../Header/Header";
 import "./IntroWorks.css";
 
-export default function IntroWorks(props) {
+export default function IntroWorks() {
   return (
     <div className="introworks">
-      <div className="works-heading">
-        <h2 className="cursive-font">My Intro works</h2>
-        <p className="cursive-font">Tools made for everyone</p>
-      </div>
-
+      <Header h2="My Intro works" para="Personalized for self" />
       <div className="works">
         <Card
           title="Console.Blog"
