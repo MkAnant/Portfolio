@@ -1,12 +1,12 @@
 button,
 input[type="submit"] {
-    padding: 10px;
+    padding: var(--size-xsmall);
     width: 200px;
 
     border: solid 1px;
-    border-radius: 30px;
+    border-radius: var(--size-small);
 
-    font-size: var(--font-size-small);
+    font-size: var(--size-xsmall);
     cursor: pointer;
 }
 

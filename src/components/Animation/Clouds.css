@@ -7,8 +7,8 @@
 
 .cloud {
     position: absolute;
-    width: var(--font-size-large);
-    height: var(--font-size-large);
+    width: var(--size-medium);
+    height: var(--size-medium);
     opacity: 0.5;
 
     background: url('../../assets/cloud.svg') no-repeat;

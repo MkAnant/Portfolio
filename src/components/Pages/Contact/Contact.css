@@ -4,9 +4,9 @@
     justify-content: space-around;
     align-items: center;
 
-    gap: var(--font-size-medium);
-    padding: var(--font-size-small);
-    margin-top: var(--font-size-small);
+    gap: var(--size-small);
+    padding: var(--size-xsmall);
+    margin-top: var(--size-xsmall);
 }
 
 .message {
@@ -14,5 +14,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: var(--font-size-medium);
+    gap: var(--size-xsmall);
+}
+
+@media (max-width:827px) {
+    .message{
+        order: 1;
+    }
 }

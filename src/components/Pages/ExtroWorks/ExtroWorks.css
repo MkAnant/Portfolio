@@ -1,11 +1,7 @@
-.extroworks p {
-    margin: 0;
-}
-
 .works {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    gap: var(--font-size-medium);
+    gap: var(--size-small);
 }

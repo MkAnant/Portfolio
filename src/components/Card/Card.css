@@ -3,25 +3,25 @@
     flex-direction: column;
     justify-content: space-around;
 
-    min-height: var(--font-size-heading);
-    flex-basis: var(--font-size-heading);
+    min-height: var(--size-xxlarge);
+    flex-basis: var(--size-xxlarge);
 
     gap: var(--font-size-small);
 
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(100px);
     border: 1px solid var(--dark-color);
-    padding: var(--font-size-small);
-    margin-top: var(--font-size-small);
+    padding: var(--size-xsmall);
+    margin: 0 0 var(--size-small) 0;
 
     overflow: hidden;
     transition: all 0.3s ease;
-    box-shadow: 0 var(--font-size-small) var(--font-size-small) #00000080;
+    box-shadow: 0 var(--size-xsmall) var(--size-xsmall) #00000080;
 }
 
 .works-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 var(--font-size-small) var(--font-size-small) var(--light-color);
+    box-shadow: 0 var(--size-xsmall) var(--size-xsmall) var(--light-color);
 }
 
 .works-card img {

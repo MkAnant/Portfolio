@@ -12,30 +12,30 @@ function App() {
 
   function changePage(newPage) {
     setPage(newPage);
-    let navbarElement = document.querySelector(".navbar-links");
-    let bodyElement = document.querySelector("body");
-    navbarElement.style.marginBottom = "var(--font-size-large)";
+    let navbarElement = document.querySelector(".navbar");
+    let rootDiv = document.querySelector("#root");
+    navbarElement.style.marginBottom = "var(--size-medium)";
 
     switch (newPage) {
       case "ExtroWorks":
-        navbarElement.style.marginBottom = "var(--font-size-small)";
+        navbarElement.style.marginBottom = "var(--size-xsmall)";
       case "Contact":
-        bodyElement.setAttribute("class", "extro-background");
+        rootDiv.setAttribute("class", "extro-background");
         break;
 
       case "IntroWorks":
-        navbarElement.style.marginBottom = "var(--font-size-small)";
+        navbarElement.style.marginBottom = "var(--size-xsmall)";
       case "About":
-        bodyElement.setAttribute("class", "intro-background");
+        rootDiv.setAttribute("class", "intro-background");
         break;
 
       case "Skills":
-        bodyElement.setAttribute("class", "gradient-background");
+        rootDiv.setAttribute("class", "dark-background");
         break;
 
       case "Origin":
       default:
-        bodyElement.setAttribute("class", "dark-background");
+        rootDiv.setAttribute("class", "dark-background");
     }
   }
 

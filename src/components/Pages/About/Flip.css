@@ -1,11 +1,11 @@
 .flip {
-    perspective: var(--font-size-heading);
+    perspective: var(--size-xxlarge);
     /* height: var(--font-size-heading); */
 }
 
 .flip-card {
-    width: var(--font-size-heading);
-    height: 256px;
+    width: var(--size-xxlarge);
+    height: var(--size-xlarge);
     position: relative;
     transform-style:preserve-3d;
     transition: transform 0.8s;

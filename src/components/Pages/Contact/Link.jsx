@@ -3,7 +3,7 @@ import "./Link.css";
 
 export default function Link(props) {
   return (
-    <a href={props.link}>
+    <a className="link" href={props.link}>
       <img className="logo-image" src={`/Link Images/${props.title}.png`} alt={props.title} />
     </a>
   );

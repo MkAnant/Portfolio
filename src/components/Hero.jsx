@@ -5,6 +5,7 @@ import IntroWorks from "./Pages/IntroWorks/IntroWorks";
 import Skills from "./Pages/Skills/Skills";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
+import Header from "./Header/Header";
 
 import "./Hero.css";
 
@@ -22,9 +23,8 @@ export default function Hero(props) {
     <section className="hero">
       <div className="pages">
         {pages[props.page] || (
-          <div>
-            Looks like we don't have the right coordinates. Let's go back to
-            Origin?
+          <div className="error">
+            <Header h2="Let's go back to Origin?" para="You're at (04 ,04) coordinates." />
           </div>
         )}
       </div>

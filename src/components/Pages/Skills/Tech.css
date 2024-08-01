@@ -4,26 +4,22 @@
     justify-content: space-around;
     align-items: center;
 
-    gap: var(--font-size-small);
-    padding: var(--font-size-small) 0;
+    gap: var(--size-small);
+    padding: var(--size-small) 0;
 
     overflow: hidden;
     transition: all 0.3s ease;
 }
 
-.tech img {
+.round-pic {
+    height: var(--size-medium);
+    width: var(--size-medium);
     transition: transform 0.3s ease;
-    border-radius: var(--font-size-medium);
+    border-radius: var(--size-xsmall);
 }
 
 .tech:hover * {
     transform: scale(1.1);
     transform: translateY(-8px);
-    filter: drop-shadow(0 var(--font-size-large) var(--font-size-small) var(--light-color));
-    /* box-shadow: ; */
-}
-
-.round-pic {
-    height: var(--font-size-large);
-    width: var(--font-size-large);
+    filter: drop-shadow(0 var(--size-small) var(--size-small) var(--light-color));
 }

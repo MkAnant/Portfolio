@@ -10,7 +10,7 @@ export default function IntroWorks() {
       <div className="works">
         <Card
           title="Console.Blog"
-          info="Personal blogging Platform where I post all about tough to grasp and
+          info="Personal blogging platform where I post all about tough to grasp and
         exceptional concepts of computer science and it’s ever evolving changes."
           tech="Node, Express, Postgres, Bootstrap"
         />

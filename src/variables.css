@@ -1,4 +1,4 @@
-/* VARIABLES */
+/* || VARIABLES */
 :root {
     /* COLORS */
     --primary-color: #fde4be;
@@ -6,9 +6,11 @@
     --dark-color: black;
     --light-color: white;
 
-    /* FONT SIZES */
-    --font-size-small: 1rem;
-    --font-size-medium: 2rem;
-    --font-size-large: 4rem;
-    --font-size-heading: 24rem;
+    /* SIZES */
+    --size-xsmall: 1rem;
+    --size-small: 2rem;
+    --size-medium: 4rem;
+    --size-large: 8rem;
+    --size-xlarge: 16rem;
+    --size-xxlarge: 24rem;
 }

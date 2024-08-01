@@ -2,7 +2,5 @@
     position: relative;
     overflow: hidden;
     z-index: 0;
-
-    height: fit-content;
-    padding: 0 var(--font-size-medium) var(--font-size-medium);
+    flex: 1;
 }

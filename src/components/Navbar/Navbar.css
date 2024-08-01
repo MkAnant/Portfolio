@@ -1,10 +1,13 @@
-/* HEADER */
+.navbar {
+    margin-bottom: var(--size-medium);
+    transition: margin-bottom 1s ease;
+}
+
+
 .navbar-links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
-    margin-bottom: var(--font-size-large);
-
-    transition: margin-bottom 1s ease;
+    gap: var(--size-small);
 }

@@ -1,9 +1,10 @@
 .dp{
-    height: 256px;
-    width: 256px;
-    border-radius: var(--font-size-large);
+    height: calc(var(--size-large) + var(--size-medium));
+    width: calc(var(--size-large) + var(--size-medium));
+    transform: scale(1.1);
 }
 
-.square-pic {
-    margin: 0px 28px;
+.about-pic, .contact-pic {
+    height: calc(var(--size-large) + var(--size-medium));
+    width: calc(var(--size-large) + var(--size-medium));
 }
