@@ -15,7 +15,11 @@ export default function Contact() {
     <div className="contact">
       <Header h2="My Extro" para="Contact Me" />
       <div className="connect">
-        <img className="contact-pic" src="/Link Images/Contact.png" alt="contact" />
+        <img
+          className="contact-pic"
+          src="/Link Images/Contact.png"
+          alt="contact"
+        />
         <div className="message">
           <h3 className="cursive-font">
             Open for some great <br /> conversations, <br />
@@ -25,11 +29,15 @@ export default function Contact() {
           </h3>
           <ul className="contact-links serif-font" type="None">
             {Object.entries(contactLinks).map(([key, value]) => (
-              <Link link={value} title={key} key={i++}/>
+              <Link link={value} title={key} key={i++} />
             ))}
           </ul>
         </div>
-        <img className="contact-pic" src="/Link Images/Resume.png" alt="resume" />
+        <img
+          className="contact-pic"
+          src="/Link Images/Resume.png"
+          alt="resume"
+        />
       </div>
     </div>
   );

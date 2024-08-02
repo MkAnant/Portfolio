@@ -5,11 +5,9 @@
 
     min-height: var(--size-xxlarge);
     flex-basis: var(--size-xxlarge);
-
     gap: var(--font-size-small);
 
     background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(100px);
     border: 1px solid var(--dark-color);
     padding: var(--size-xsmall);
     margin: 0 0 var(--size-small) 0;
@@ -17,6 +15,11 @@
     overflow: hidden;
     transition: all 0.3s ease;
     box-shadow: 0 var(--size-xsmall) var(--size-xsmall) #00000080;
+    backdrop-filter: blur(100px);
+}
+
+.works-card p {
+    text-align: start;
 }
 
 .works-card:hover {

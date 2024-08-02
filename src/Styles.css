@@ -18,15 +18,17 @@
 
 /* || SCROLL BAR */
 html {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
   width: 8px;
 }
+
 html::-webkit-scrollbar-track {
   background: transparent;
 }
+
 html::-webkit-scrollbar-thumb {
   background: #888;
 }
@@ -37,15 +39,15 @@ img {
 }
 
 h1 {
-  font-size: var(--size-xxlarge);
+  font-size: clamp(var(--size-xlarge), 60vw, var(--size-xxlarge));
 }
 
 h2 {
-  font-size: var(--size-medium);
+  font-size: clamp(var(--size-small), 10vw, var(--size-medium));
 }
 
 h3 {
-  font-size: var(--size-small);
+  font-size: clamp(var(--size-xsmall), 5vw, var(--size-small));
   text-align: center;
   margin: var(--size-xsmall) 0;
 }
@@ -98,4 +100,3 @@ p {
   font-weight: 900;
   font-style: normal;
 }
-

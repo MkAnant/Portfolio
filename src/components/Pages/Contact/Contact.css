@@ -1,4 +1,5 @@
-.connect, .contact-links {
+.connect,
+.contact-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -14,11 +15,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: var(--size-xxlarge);
+    height: var(--size-xlarge);
     gap: var(--size-xsmall);
-}
-
-@media (max-width:827px) {
-    .message{
-        order: 1;
-    }
 }

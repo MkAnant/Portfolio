@@ -2,6 +2,7 @@
 .hero {
     z-index: 1;
     min-height: max(50dvh, auto);
+    transition: background-color 1s ease;
 }
 
 .hero p {

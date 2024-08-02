@@ -24,7 +24,10 @@ export default function Hero(props) {
       <div className="pages">
         {pages[props.page] || (
           <div className="error">
-            <Header h2="Let's go back to Origin?" para="You're at (04 ,04) coordinates." />
+            <Header
+              h2="Let's go back to Origin?"
+              para="You're lost at (04 ,04) coordinates."
+            />
           </div>
         )}
       </div>

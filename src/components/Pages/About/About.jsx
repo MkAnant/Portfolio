@@ -8,11 +8,11 @@ export default function About() {
   return (
     <div className="about">
       <Header h2="My Intro" para="About Me" />
-        <div className="connect">
-          <img className="about-pic" src="/About.png" alt="about" />
-          <Flip />
-          <img className="dp" src={dp} alt="dp" />
-        </div>
+      <div className="connect">
+        <img className="about-pic" src="/About.png" alt="about" />
+        <Flip />
+        <img className="dp" src={dp} alt="dp" />
+      </div>
     </div>
   );
 }

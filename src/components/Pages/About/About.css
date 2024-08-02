@@ -1,10 +1,29 @@
-.dp{
+.dp {
     height: calc(var(--size-large) + var(--size-medium));
     width: calc(var(--size-large) + var(--size-medium));
     transform: scale(1.1);
 }
 
-.about-pic, .contact-pic {
+.about-pic,
+.contact-pic {
     height: calc(var(--size-large) + var(--size-medium));
     width: calc(var(--size-large) + var(--size-medium));
+}
+
+@media (max-width:768px) {
+    .connect {
+        flex-direction: column;
+    }
+
+    .message {
+        order: 1;
+    }
+}
+
+@media (min-width:769px) and (max-width:895.5px) {
+
+    .message,
+    .flip {
+        order: 1;
+    }
 }

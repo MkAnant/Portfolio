@@ -14,7 +14,7 @@ export default function Origin(props) {
           OnChangedPage={props.OnChangedPage}
         />
       </div>
-      <h1 className="serif-font-bold">/</h1>
+      <h1 className="divide serif-font-bold">/</h1>
       <div className="infinite">
         <h1 className="intro-color">0</h1>
         <Button

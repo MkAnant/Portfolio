@@ -2,12 +2,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: var(--size-large);
 }
 
 .infinite {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+@media (max-width:768px) {
+    .origin {
+        flex-direction: column;
+        padding-bottom: var(--size-small);
+    }
+
+    .divide {
+        transform: rotate(70.5deg);
+        line-height: 0.5;
+    }
+}
+
+@media (min-width:769px) {
+    .origin {
+        gap: clamp(var(--size-medium), 10vw, var(--size-large));
+    }
 }

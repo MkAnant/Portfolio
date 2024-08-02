@@ -11,20 +11,20 @@ export default function ExtroWorks(props) {
         <Card
           title="Sun Screener"
           info="A web app to calculate how much sun exposure you need for sufficient
-            vitamin D based on the UV index of your location, time and skin type."
-          tech="Node, Express + API, HTML, CSS, JS"
+            vitamin D, based on the UV index of your location, time and skin type."
+          tech="Node, Express, EJS, Axios(REST API), HTML, CSS, JS"
           blur={false}
         />
         <Card
           title="Coming Soon"
-          info="Let me cook !"
-          tech="Node, Express, Passport, Mongo DB"
+          info="Let me cook - Book-er app !"
+          tech="Node, Next, React, Mongo DB, WebRTC"
           blur={true}
         />
         <Card
           title="Coming Soon"
-          info="Let me cook !"
-          tech="Node, Next, React, Redux, Mongo DB"
+          info="Currently cooking - Hi-pe app !"
+          tech="Node, Express, Passport, React, Mongo DB, WebSocket"
           blur={true}
         />
       </div>

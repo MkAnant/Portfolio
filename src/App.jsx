@@ -30,9 +30,6 @@ function App() {
         break;
 
       case "Skills":
-        rootDiv.setAttribute("class", "dark-background");
-        break;
-
       case "Origin":
       default:
         rootDiv.setAttribute("class", "dark-background");
@@ -43,8 +40,11 @@ function App() {
     <div className="App">
       <Clouds />
       <Navbar OnChangedPage={changePage} />
-      <Header h2="Hello there, I'm Anant (: meaning Infinity :)" para="An ambivert with a craving for either being all disciplined or having
-          fun, but often it's some tasteful desserts that win over these :p"/>
+      <Header
+        h2="Hello there, I'm Anant (: meaning Infinity :)"
+        para="An ambivert with a craving for either being all disciplined or having
+          fun, but often it's some tasteful desserts that win over these :p"
+      />
       <Hero page={page} OnChangedPage={changePage} />
     </div>
   );
