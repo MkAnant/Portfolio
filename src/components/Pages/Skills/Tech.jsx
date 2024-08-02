@@ -6,7 +6,7 @@ export default function Tech(props) {
     <div className={`tech ${props.end}`}>
       <img
         className="round-pic"
-        src={`/Tech Images/${props.tech}.png`}
+        src={`Tech Images/${props.tech}.png`}
         alt={props.tech}
       />
       <p className="cursive-font">{props.tech}</p>

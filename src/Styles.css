@@ -7,7 +7,6 @@
 
 #root {
   min-height: 100dvh;
-  padding: var(--size-xsmall);
   line-height: 1;
   text-align: center;
   transition: background-color 1s ease;

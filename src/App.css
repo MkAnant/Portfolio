@@ -3,4 +3,5 @@
     overflow: hidden;
     z-index: 0;
     flex: 1;
+    padding: var(--size-xsmall);
 }

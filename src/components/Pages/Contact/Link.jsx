@@ -6,7 +6,7 @@ export default function Link(props) {
     <a className="link" href={props.link}>
       <img
         className="logo-image"
-        src={`/Link Images/${props.title}.png`}
+        src={`Link Images/${props.title}.png`}
         alt={props.title}
       />
     </a>

@@ -17,7 +17,7 @@ export default function Contact() {
       <div className="connect">
         <img
           className="contact-pic"
-          src="/Link Images/Contact.png"
+          src="Link Images/Contact.png"
           alt="contact"
         />
         <div className="message">
@@ -35,7 +35,7 @@ export default function Contact() {
         </div>
         <img
           className="contact-pic"
-          src="/Link Images/Resume.png"
+          src="Link Images/Resume.png"
           alt="resume"
         />
       </div>
