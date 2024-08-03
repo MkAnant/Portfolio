@@ -3,11 +3,9 @@ import "./Header.css";
 
 export default function Header(props) {
   return (
-    <header>
-      <div className="headings">
+    <header className="headings">
         <h2 className="cursive-font">{props.h2}</h2>
         <p className="cursive-font">{props.para}</p>
-      </div>
     </header>
   );
 }

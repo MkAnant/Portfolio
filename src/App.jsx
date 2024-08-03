@@ -3,6 +3,7 @@ import Clouds from "./components/Animation/Clouds";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer/Footer";
 import "./Styles.css";
 import "./Variables.css";
 import "./App.css";
@@ -46,6 +47,7 @@ function App() {
           fun, but often it's some tasteful desserts that win over these :p"
       />
       <Hero page={page} OnChangedPage={changePage} />
+      <Footer />
     </div>
   );
 }
