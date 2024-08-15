@@ -6,7 +6,7 @@ import "./ExtroWorks.css";
 export default function ExtroWorks(props) {
   return (
     <div className="extroworks">
-      <Header h2="My Extro works" para="Tools made for everyone" />
+      <Header h2="My Extro-works" para="Tools made for everyone" />
       <div className="works">
         <Card
           title="Sun Screener"
@@ -14,6 +14,7 @@ export default function ExtroWorks(props) {
             vitamin D, based on the UV index of your location, time and skin type."
           tech="Node, Express, EJS, Axios(REST API), HTML, CSS, JS"
           blur={false}
+          url={"https://mkanant.github.io/SunScreener/"}
         />
         <Card
           title="Coming Soon"

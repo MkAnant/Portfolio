@@ -9,7 +9,7 @@ export default function Origin(props) {
         <h1 className="extro-color">1</h1>
         <Button
           type="primary-button"
-          value="My Extro Works"
+          value="My Extro-Works"
           page="ExtroWorks"
           OnChangedPage={props.OnChangedPage}
         />
@@ -19,7 +19,7 @@ export default function Origin(props) {
         <h1 className="intro-color">0</h1>
         <Button
           type="secondary-button"
-          value="My Intro Works"
+          value="My Intro-Works"
           page="IntroWorks"
           OnChangedPage={props.OnChangedPage}
         />

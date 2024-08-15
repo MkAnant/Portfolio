@@ -3,6 +3,7 @@ import Origin from "./Pages/Origin/Origin";
 import ExtroWorks from "./Pages/ExtroWorks/ExtroWorks";
 import IntroWorks from "./Pages/IntroWorks/IntroWorks";
 import Skills from "./Pages/Skills/Skills";
+import Resume from "./Pages/Resume/Resume";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Header from "./Header/Header";
@@ -15,6 +16,7 @@ export default function Hero(props) {
     ExtroWorks: <ExtroWorks OnChangedPage={props.OnChangedPage} />,
     IntroWorks: <IntroWorks OnChangedPage={props.OnChangedPage} />,
     Skills: <Skills />,
+    Resume: <Resume />,
     About: <About />,
     Contact: <Contact />,
   };

@@ -16,6 +16,7 @@
     transition: all 0.3s ease;
     box-shadow: 0 var(--size-xsmall) var(--size-xsmall) #00000080;
     backdrop-filter: blur(100px);
+    cursor: pointer;
 }
 
 .works-card p {
