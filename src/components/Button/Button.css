@@ -1,5 +1,5 @@
 button,
-input[type="submit"] {
+input {
     padding: var(--size-xsmall);
     width: 200px;
 
@@ -8,6 +8,10 @@ input[type="submit"] {
 
     font-size: var(--size-xsmall);
     cursor: pointer;
+}
+
+input {
+    cursor: text;
 }
 
 .primary-button,
@@ -19,10 +23,10 @@ input[type="submit"] {
 }
 
 .dark-primary-button {
-    color: var(--dark-color);
-    background-color: transparent;
-    border-color: var(--dark-color);
+    color: var(--primary-color);
+    background-color: var(--dark-color);
     transition: 0.5s ease;
+    border-color: var(--dark-color);
 }
 
 .primary-button:hover {
@@ -40,8 +44,8 @@ input[type="submit"] {
 }
 
 .dark-primary-button:hover {
-    color: var(--primary-color);
-    background-color: var(--dark-color);
-    transition: 0.5s ease;
+    color: var(--dark-color);
+    background-color: transparent;
     border-color: var(--dark-color);
+    transition: 0.5s ease;
 }

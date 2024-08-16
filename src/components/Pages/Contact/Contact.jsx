@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../Header/Header";
 import Link from "./Link";
+import Notify from "./Notify";
 import "./Contact.css";
 
 export default function Contact() {
@@ -17,7 +18,7 @@ export default function Contact() {
       <div className="connect">
         <img
           className="contact-pic"
-          src="Link Images/Contact.png"
+          src="Link Images/Contact.svg"
           alt="contact"
         />
         <div className="message">
@@ -33,11 +34,7 @@ export default function Contact() {
             ))}
           </ul>
         </div>
-        <img
-          className="contact-pic"
-          src="Link Images/Resume.png"
-          alt="resume"
-        />
+        <Notify />
       </div>
     </div>
   );

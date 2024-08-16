@@ -9,9 +9,9 @@ export default function About() {
     <div className="about">
       <Header h2="My Intro" para="About Me" />
       <div className="connect">
-        <img className="about-pic" src="About.png" alt="about" />
+        <img className="about-pic" src="About.svg" alt="about" />
         <Flip />
-        <img className="dp" src={dp} alt="dp" />
+        <img className="dp about-pic" src={dp} alt="dp" />
       </div>
     </div>
   );

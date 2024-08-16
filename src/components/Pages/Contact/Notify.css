@@ -1,0 +1,8 @@
+.notify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-small);
+    padding: var(--size-xsmall);
+}

@@ -1,14 +1,12 @@
 .dp {
-    height: calc(var(--size-large) + var(--size-medium));
-    width: calc(var(--size-large) + var(--size-medium));
     transform: scale(1.1);
     border-radius: var(--size-small);
 }
 
 .about-pic,
 .contact-pic {
-    height: calc(var(--size-large) + var(--size-medium));
-    width: calc(var(--size-large) + var(--size-medium));
+    height: calc(2*var(--size-large));
+    width: calc(2*var(--size-large));
 }
 
 @media (max-width:768px) {
@@ -21,7 +19,7 @@
     }
 }
 
-@media (min-width:769px) and (max-width:895.5px) {
+@media (min-width:769px) and (max-width:1023.5px) {
 
     .message,
     .flip {
