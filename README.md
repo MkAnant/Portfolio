@@ -52,6 +52,23 @@ Visit http://localhost:5173 (default port for Vite) to view the website locally.
 # Contributing
 I appreciate any suggestions, feedback, or contributions to enhance this personal portfolio website. If you find any issues or have improvements in mind, please feel free to Raise an Issue on this repository or Submit a Pull Request with your changes.  
 
+<!-- CONTRIBUTING -->
+<h2 id="contributing"> 🤝 Contributing</h2>
+
+<p> Contributions are welcome! If you find any issues or have improvements in mind, follow these steps: </p>
+<ol>
+  <li>Fork the repository.</li>
+  <li>Create a new branch for your feature/bugfix.</li>
+  <li>Submit a pull request with detailed information on your changes.</li>
+</ol>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- LICENSE -->
+<h2 id="license"> 📝 License</h2>
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 # Contact
 If you have any questions or inquiries, please feel free to reach out to me through the contact information provided on the website or by using the contact form. 
 
